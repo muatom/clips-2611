@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<meta name="googlebot" content="noindex, nofollow">
+<title>סרטונים</title>
+<style>
+  :root{--bg:#f6f7fb;--card:#fff;--ink:#14163a;--muted:#5b658a;}
+  @media (prefers-color-scheme: dark){:root{--bg:#0d0f24;--card:#171a3a;--ink:#eef0fb;--muted:#a9b1d6;}}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;padding:32px 16px}
+  main{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:32px}
+  section{background:var(--card);border-radius:18px;padding:20px;box-shadow:0 10px 30px -18px rgba(0,0,0,.35)}
+  h2{font-size:22px;margin-bottom:12px}
+  video{width:100%;border-radius:12px;display:block;background:#000}
+  a{color:inherit;font-size:15px;display:inline-block;margin-top:10px}
+  p{color:var(--muted);font-size:15px;margin-top:6px}
+</style>
+</head>
+<body>
+<main>
+  <section>
+    <h2>סקירה כללית</h2>
+    <video src="overview.mp4" poster="overview.jpg" controls preload="metadata" playsinline></video>
+    <p>שתי דקות</p>
+    <a href="overview.mp4" download>הורדה</a>
+  </section>
+  <section>
+    <h2>הפרופיל הרפואי</h2>
+    <video src="profile.mp4" poster="profile.jpg" controls preload="metadata" playsinline></video>
+    <p>דקה</p>
+    <a href="profile.mp4" download>הורדה</a>
+  </section>
+</main>
+</body>
+</html>
